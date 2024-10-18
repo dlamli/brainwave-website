@@ -1,38 +1,38 @@
-export interface ButtonProps {
+export type ButtonProps = {
   children?: React.ReactNode;
   className?: string;
   href?: string;
   px?: string;
   white?: boolean | undefined;
   onClick?: () => void;
-}
+};
 
-export interface HeaderProps {
+export type HeaderProps = {
   children?: React.ReactNode;
-}
-export interface SectionProps {
+};
+export type SectionProps = {
   children?: React.ReactNode;
   className?: string;
   id?: string;
   crosses?: boolean;
   crossesOffsset?: string;
   customPaddings?: boolean;
-}
+};
 
-export interface GeneratingProps {
+export type GeneratingProps = {
   className?: string;
-}
+};
 
-export interface NotificationProps {
-  className?: string;
-  title?: string;
-}
-
-export interface CompanyLogosProps {
-  className?: string;
-}
-
-export interface HeadingProps {
+export type NotificationProps = {
   className?: string;
   title?: string;
-}
+};
+
+export type CompanyLogosProps = {
+  className?: string;
+};
+
+export type HeadingProps = {
+  className?: string;
+  title?: string;
+};
