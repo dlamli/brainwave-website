@@ -10,3 +10,11 @@ export interface ButtonProps {
 export interface HeaderProps {
   children?: React.ReactNode;
 }
+export interface SectionProps {
+  className: string;
+  id: string;
+  crosses: string;
+  crossesOffsset: string;
+  customPaddings: string;
+  children: React.ReactNode;
+}
