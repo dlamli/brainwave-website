@@ -11,10 +11,23 @@ export interface HeaderProps {
   children?: React.ReactNode;
 }
 export interface SectionProps {
-  className: string;
-  id: string;
-  crosses: string;
-  crossesOffsset: string;
-  customPaddings: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
+  className?: string;
+  id?: string;
+  crosses?: boolean;
+  crossesOffsset?: string;
+  customPaddings?: boolean;
+}
+
+export interface GeneratingProps {
+  className?: string;
+}
+
+export interface NotificationProps {
+  className?: string;
+  title?: string;
+}
+
+export interface CompanyLogosProps {
+  className?: string;
 }
