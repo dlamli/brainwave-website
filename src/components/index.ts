@@ -1,5 +1,6 @@
 export * from "./Benefits";
 export * from "./Button";
+export * from "./Collaboration";
 export * from "./CompanyLogos";
 export * from "./design";
 export * from "./Generating";
