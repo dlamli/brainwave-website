@@ -35,4 +35,5 @@ export type CompanyLogosProps = {
 export type HeadingProps = {
   className?: string;
   title?: string;
+  text?: string;
 };

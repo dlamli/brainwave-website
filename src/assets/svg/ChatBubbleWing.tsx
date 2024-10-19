@@ -1,4 +1,10 @@
-export const ChatBubbleWing = ({ className, pathClassName }) => {
+export const ChatBubbleWing = ({
+  className,
+  pathClassName,
+}: {
+  className?: string;
+  pathClassName?: string;
+}) => {
   return (
     <svg
       className={`${className || ""}`}

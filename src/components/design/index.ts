@@ -4,4 +4,4 @@ export * from "./Header";
 // export * from "./Hero";
 export * from "./Pricing";
 // export * from "./Roadmap";
-// export * from "./Services";
+export * from "./Services";

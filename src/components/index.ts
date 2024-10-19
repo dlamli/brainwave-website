@@ -9,3 +9,4 @@ export * from "./Heading";
 export * from "./Hero";
 export * from "./Notification";
 export * from "./Section";
+export * from "./Services";
