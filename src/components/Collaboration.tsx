@@ -14,7 +14,12 @@ export const Collaboration = () => {
             {collabContent.map((collab) => (
               <li key={collab.id} className="mb-3 py-3">
                 <div className="flex items-center gap-5">
-                  <img src={check} className="size-6" alt="Checkmark" />
+                  <img
+                    src={check}
+                    className="size-6"
+                    alt="Checkmark"
+                    loading="lazy"
+                  />
                   <h6 className="body-2">{collab.title}</h6>
                 </div>
                 {collab.text && (

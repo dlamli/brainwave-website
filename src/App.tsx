@@ -4,6 +4,7 @@ import {
   Collaboration,
   Header,
   Hero,
+  Pricing,
   Services,
 } from "@components/index";
 
@@ -16,6 +17,7 @@ export const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
       <ButtonGradient />
     </>
