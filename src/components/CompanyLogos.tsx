@@ -13,7 +13,13 @@ export const CompanyLogos = ({ className }: CompanyLogosProps) => {
             key={index}
             className="flex items-center justify-center flex-1 h-[8.5rem]"
           >
-            <img src={logo} width={134} height={28} alt="Company Logo" />
+            <img
+              src={logo}
+              width={134}
+              height={28}
+              alt="Company Logo"
+              loading="lazy"
+            />
           </li>
         ))}
       </ul>

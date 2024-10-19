@@ -8,5 +8,8 @@ export * from "./Header";
 export * from "./Heading";
 export * from "./Hero";
 export * from "./Notification";
+export * from "./Pricing";
+export * from "./PricingList";
 export * from "./Section";
 export * from "./Services";
+export * from "./TagLine";

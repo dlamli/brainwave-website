@@ -8,7 +8,7 @@ export const Generating = ({ className }: GeneratingProps) => {
         className || ""
       } text-base`}
     >
-      <img className="size-5 mr-4" src={loading} alt="Loading" />
+      <img className="size-5 mr-4" src={loading} alt="Loading" loading="lazy" />
       AI is generating
     </div>
   );

@@ -36,4 +36,10 @@ export type HeadingProps = {
   className?: string;
   title?: string;
   text?: string;
+  tag?: string;
+};
+
+export type TagLineProps = {
+  children?: React.ReactNode;
+  className?: string;
 };
