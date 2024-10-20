@@ -1,6 +1,6 @@
 import { PlusSvg } from "@assets/svg";
 
-export const SectionSvg = ({ crossesOffset }) => {
+export const SectionSvg = ({ crossesOffset }: { crossesOffset?: string }) => {
   return (
     <>
       <PlusSvg
