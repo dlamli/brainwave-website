@@ -10,6 +10,7 @@ export * from "./Hero";
 export * from "./Notification";
 export * from "./Pricing";
 export * from "./PricingList";
+export * from "./Roadmap";
 export * from "./Section";
 export * from "./Services";
 export * from "./TagLine";
