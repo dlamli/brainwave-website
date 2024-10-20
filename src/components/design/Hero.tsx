@@ -38,7 +38,7 @@ const Rings = () => {
 export const BackgroundCircles = ({
   parallaxRef,
 }: {
-  parallaxRef?: string;
+  parallaxRef?: React.MutableRefObject<string> | null;
 }) => {
   const [mounted, setMounted] = useState(false);
 

@@ -1,4 +1,4 @@
-export const brackets = (position) =>
+export const brackets = (position: string) =>
   position === "left" ? (
     <svg
       width="5"
