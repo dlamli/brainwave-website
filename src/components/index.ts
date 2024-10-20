@@ -3,6 +3,7 @@ export * from "./Button";
 export * from "./Collaboration";
 export * from "./CompanyLogos";
 export * from "./design";
+export * from "./Footer";
 export * from "./Generating";
 export * from "./Header";
 export * from "./Heading";
