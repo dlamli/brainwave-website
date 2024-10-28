@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/B91wc5dCEBA" target="_blank">
-      <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
-    </a>
+    <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
   <br />
 
   <div>
@@ -78,9 +76,4 @@ npm install
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
-
 </a>
-
-#
